@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "NeurMito-DT: source-aware reserve analysis and nonlinear mitochondrial stress-state transitions"
+message: "AUTHOR_CONFIRMATION_REQUIRED: U06-A reviewer access is technically prepared but not author-approved; U06-B public release and persistent identifier do not exist."
+type: software
+# The historical repository URL is https://github.com/noonyue/neurmito, but it
+# contains no public commit, tag or Release for this candidate. Version, DOI,
+# repository-code, license and release-date fields are intentionally omitted.
+authors:
+  []
+# Author names, affiliations, ORCID identifiers, and corresponding-author
+# details are intentionally supplied in the submission metadata package.
+# Populate this list before creating the public release tag.

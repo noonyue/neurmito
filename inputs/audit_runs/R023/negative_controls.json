@@ -1,0 +1,20 @@
+{
+  "future_window_removal": {
+    "future_window_max_abs_feature_difference": 0.0,
+    "future_window_n_checked": 620,
+    "test_groups_used": 124
+  },
+  "group_label_permutation": {
+    "auroc_ci_high": 0.6038409884501746,
+    "auroc_ci_low": 0.39804593070104755,
+    "auroc_median": 0.49905989793177546,
+    "n": 1000,
+    "observed_locked_auroc": 1.0
+  },
+  "within_trajectory_time_shuffle": {
+    "auprc": 0.41315095923597983,
+    "auroc": 0.8406072106261859,
+    "model": "best_ews",
+    "n_groups": 113
+  }
+}

@@ -1,0 +1,5 @@
+model_variant,n_conditions,solver_success_count,endpoint_class_counts,depolarized_endpoint_count,mean_dpsi_rotenone_0_8,mean_dpsi_rotenone_0_9,mean_dpsi_drop_0_8_to_0_9,mean_atp_rotenone_0_8,mean_atp_rotenone_0_9,mean_atp_drop_0_8_to_0_9
+full_model,49,49,"{""near_fixed_depolarized_endpoint"": 14, ""near_fixed_physiological_endpoint"": 35}",14,153.56140180078924,117.70540297041282,35.85599883037642,9.069871385077047,0.22521016376760208,8.844661221309444
+no_ros_induced_leak,49,49,"{""near_fixed_depolarized_endpoint"": 14, ""near_fixed_physiological_endpoint"": 35}",14,157.29550917557603,119.97810057002725,37.31740860554878,9.113774695493197,0.25501362021066576,8.858761075282532
+no_h2o2_c1_feedback,49,49,"{""near_fixed_depolarized_endpoint"": 14, ""near_fixed_physiological_endpoint"": 35}",14,153.786657437322,117.77962544838094,36.00703198894105,9.07424831363792,0.2260878611763863,8.848160452461533
+no_ros_leak_no_h2o2_c1_feedback,49,49,"{""near_fixed_depolarized_endpoint"": 14, ""near_fixed_physiological_endpoint"": 35}",14,157.42779618943814,120.05538619968323,37.372409989754914,9.114801230506616,0.25609940999438335,8.858701820512232

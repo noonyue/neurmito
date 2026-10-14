@@ -1,0 +1,16 @@
+{
+  "endpoint_class_counts": {
+    "near_fixed_depolarized_endpoint": 246,
+    "near_fixed_physiological_endpoint": 195
+  },
+  "excluded_count": 0,
+  "n_conditions": 441,
+  "n_endpoint_eligible_groups": 441,
+  "n_positive_events": 246,
+  "n_trajectory_rows": 2205441,
+  "split_counts": {
+    "test": 126,
+    "train": 252,
+    "validation": 63
+  }
+}

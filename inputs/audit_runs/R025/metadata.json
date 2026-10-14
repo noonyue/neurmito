@@ -1,0 +1,21 @@
+{
+  "claim_boundary": "supports only controlled recovery under hidden nonlinear residual misspecification; not biological validation",
+  "dt": 0.05,
+  "epochs": 250,
+  "n_steps": 120,
+  "purpose": "controlled in-silico model-misspecification benchmark",
+  "run_id": "R025",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_hidden_gain": [
+    0.75,
+    1.0
+  ],
+  "train_hidden_gain": [
+    0.0,
+    0.5
+  ]
+}

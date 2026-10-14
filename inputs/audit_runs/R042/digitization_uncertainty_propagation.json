@@ -1,0 +1,121 @@
+{
+  "between_source_interval_overlap": {
+    "atp_linked_to_basal": {
+      "gap": 0.2697152245345017,
+      "intersection_high": null,
+      "intersection_low": null,
+      "overlaps": false
+    },
+    "maximal_to_basal": {
+      "gap": 0.0,
+      "intersection_high": 1.5569620253164556,
+      "intersection_low": 1.5543478260869563,
+      "overlaps": true
+    },
+    "proton_leak_to_basal": {
+      "gap": 0.0,
+      "intersection_high": 0.20454545454545456,
+      "intersection_low": 0.18072289156626506,
+      "overlaps": true
+    },
+    "spare_to_basal": {
+      "gap": 0.0,
+      "intersection_high": 0.5569620253164557,
+      "intersection_low": 0.5543478260869564,
+      "overlaps": true
+    }
+  },
+  "claim_gate": {
+    "absolute_calibration_allowed": false,
+    "decision": "Digitization uncertainty is not enough to convert R041 into a calibrated or externally validated result. Protocol uncertainty remains unresolved.",
+    "eligible_for_external_validation": false,
+    "weak_identifiability_stable": true
+  },
+  "protocol_uncertainty": {
+    "quantified": false,
+    "reason": "Platform, normalization, inhibitor timing/concentration, and laboratory protocol differences are retained as source metadata; no empirical protocol-error prior is available."
+  },
+  "r041_rank_stability_under_digitization_corners": {
+    "fit_R033_reserve_R039": {
+      "stable_single_winner": false,
+      "top_train_loss_interval": {
+        "high": 0.2557352164167333,
+        "low": 0.10335828264446828
+      },
+      "unique_winners": 3,
+      "winner_counts": {
+        "{\"Vmax_CV\": 0.8, \"g_H\": 0.5}": 5,
+        "{\"Vmax_CV\": 0.8, \"g_H\": 0.8}": 9,
+        "{\"Vmax_CV\": 0.8, \"g_H\": 1.0}": 2
+      },
+      "winner_reserve_loss_interval": {
+        "high": 0.21564696763807648,
+        "low": 0.1903023479734436
+      }
+    },
+    "fit_R039_reserve_R033": {
+      "stable_single_winner": false,
+      "top_train_loss_interval": {
+        "high": 0.2865105170635354,
+        "low": 0.11871341341036683
+      },
+      "unique_winners": 2,
+      "winner_counts": {
+        "{\"Vmax_CV\": 0.8, \"g_H\": 0.5}": 10,
+        "{\"Vmax_CV\": 0.8, \"g_H\": 0.8}": 6
+      },
+      "winner_reserve_loss_interval": {
+        "high": 0.17678740104407942,
+        "low": 0.1670305068958982
+      }
+    }
+  },
+  "run_id": "R042",
+  "screen_status": "complete_digitization_uncertainty_diagnostic",
+  "source_ratio_intervals": {
+    "PMID:24056030": {
+      "atp_linked_to_basal": {
+        "high": 0.4772727272727273,
+        "low": 0.4130434782608695,
+        "nominal": 0.4444444444444445
+      },
+      "maximal_to_basal": {
+        "high": 1.6704545454545454,
+        "low": 1.5543478260869563,
+        "nominal": 1.6111111111111112
+      },
+      "proton_leak_to_basal": {
+        "high": 0.20454545454545456,
+        "low": 0.15217391304347827,
+        "nominal": 0.17777777777777776
+      },
+      "spare_to_basal": {
+        "high": 0.6704545454545455,
+        "low": 0.5543478260869564,
+        "nominal": 0.6111111111111112
+      }
+    },
+    "PMID:31931869": {
+      "atp_linked_to_basal": {
+        "high": 0.8354430379746836,
+        "low": 0.746987951807229,
+        "nominal": 0.7901234567901234
+      },
+      "maximal_to_basal": {
+        "high": 1.5569620253164556,
+        "low": 1.4337349397590362,
+        "nominal": 1.4938271604938271
+      },
+      "proton_leak_to_basal": {
+        "high": 0.24050632911392406,
+        "low": 0.18072289156626506,
+        "nominal": 0.20987654320987656
+      },
+      "spare_to_basal": {
+        "high": 0.5569620253164557,
+        "low": 0.43373493975903626,
+        "nominal": 0.4938271604938272
+      }
+    }
+  }
+}

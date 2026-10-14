@@ -1,0 +1,915 @@
+{
+  "claim_gate": {
+    "absolute_calibration_allowed": false,
+    "atp_linked_used": false,
+    "blind_pooling_allowed": false,
+    "external_validation_claim_allowed": false,
+    "figure1_mcmc_allowed": false,
+    "group_means_are_conditional_sensitivity_targets": true,
+    "maximal_spare_contract_used": true,
+    "proton_leak_fit_target_used": false,
+    "source_values_pooled_for_calibration": false
+  },
+  "conditional_group_rankings": {
+    "high_reserve_pair": {
+      "near_best_summary": {
+        "best_loss": 0.0027055892817048153,
+        "near_best_count": 5,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          },
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 1.5,
+            "g_H": 0.5
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 0.5
+          },
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 0.5
+          }
+        ],
+        "near_best_threshold": 0.012705589281704815,
+        "single_winner": false
+      },
+      "observed_mean_ratios": {
+        "maximal_to_basal": 2.0292000000000003,
+        "spare_to_basal": 1.0824
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.05281885851451684,
+            "spare_to_basal": 0.05119908933402119
+          },
+          "loss": 0.0027055892817048153,
+          "max_stage_derivative": 2.503528269364948e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 2.139261091845093,
+            "spare_to_basal": 1.139261091845093
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.03098086539640099,
+            "spare_to_basal": -0.1124300010138856
+          },
+          "loss": 0.006800159574346117,
+          "max_stage_derivative": 6.160501622720638e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9672974759830923,
+            "spare_to_basal": 0.9672974759830923
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.03280520522750041,
+            "spare_to_basal": -0.11614386364339191
+          },
+          "loss": 0.007282789276016617,
+          "max_stage_derivative": 2.6534306847280328e-11,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9637117286433947,
+            "spare_to_basal": 0.9637117286433946
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.033077444465078876,
+            "spare_to_basal": -0.11669867157878716
+          },
+          "loss": 0.0073563486402970025,
+          "max_stage_derivative": 4.864301339761466e-12,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9631772020224263,
+            "spare_to_basal": 0.9631772020224264
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.03322457952778779,
+            "spare_to_basal": -0.11699858966862502
+          },
+          "loss": 0.0073962713346227916,
+          "max_stage_derivative": 2.5602856997680723e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9628883710707992,
+            "spare_to_basal": 0.9628883710707992
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.14637249951744868,
+            "spare_to_basal": -0.36300932231065736
+          },
+          "loss": 0.07660033834971412,
+          "max_stage_derivative": 2.8260983223754588e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.7528957368587534,
+            "spare_to_basal": 0.7528957368587534
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.14637900490133937,
+            "spare_to_basal": -0.3630244682444107
+          },
+          "loss": 0.07660678881002174,
+          "max_stage_derivative": 6.758578072196819e-11,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.7528843336361561,
+            "spare_to_basal": 0.7528843336361563
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.14638006984341345,
+            "spare_to_basal": -0.36302694767121646
+          },
+          "loss": 0.07660784479142137,
+          "max_stage_derivative": 1.3050607643172452e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.752882466916872,
+            "spare_to_basal": 0.752882466916872
+          }
+        }
+      ]
+    },
+    "low_reserve_pair": {
+      "near_best_summary": {
+        "best_loss": 0.01139446526073824,
+        "near_best_count": 4,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          }
+        ],
+        "near_best_threshold": 0.021394465260738238,
+        "single_winner": false
+      },
+      "observed_mean_ratios": {
+        "maximal_to_basal": 1.5524691358024691,
+        "spare_to_basal": 0.5524691358024691
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.05266925362189556,
+            "spare_to_basal": 0.1414739560639658
+          },
+          "loss": 0.01139446526073824,
+          "max_stage_derivative": 1.5677978728624586e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364281477231657,
+            "spare_to_basal": 0.6364281477231657
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.052670426763172906,
+            "spare_to_basal": 0.14147697252331776
+          },
+          "loss": 0.011394953804889184,
+          "max_stage_derivative": 1.5643364685222205e-10,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364300674856993,
+            "spare_to_basal": 0.6364300674856992
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.05267664414749684,
+            "spare_to_basal": 0.14149295898510167
+          },
+          "loss": 0.011397543140500838,
+          "max_stage_derivative": 3.0410970391220316e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.636440241831977,
+            "spare_to_basal": 0.6364402418319769
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.056314812633142475,
+            "spare_to_basal": 0.15082095733079087
+          },
+          "loss": 0.012959159646041092,
+          "max_stage_derivative": 3.1111315780540938e-12,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.642404730476799,
+            "spare_to_basal": 0.6424047304767991
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.09887241103653766,
+            "spare_to_basal": -0.3072638809451449
+          },
+          "loss": 0.052093423098825115,
+          "max_stage_derivative": 3.760261763421924e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.406317018269176,
+            "spare_to_basal": 0.40631701826917604
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.09887795870709004,
+            "spare_to_basal": -0.3072830822988182
+          },
+          "loss": 0.05209987169257163,
+          "max_stage_derivative": 2.9084348495377055e-07,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.4063092165073072,
+            "spare_to_basal": 0.4063092165073072
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.12141490255957471,
+            "spare_to_basal": 0.30951156015479914
+          },
+          "loss": 0.05526949221650443,
+          "max_stage_derivative": 1.3050607643172452e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.752882466916872,
+            "spare_to_basal": 0.752882466916872
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.12141596750164879,
+            "spare_to_basal": 0.3095140395816049
+          },
+          "loss": 0.05527038893124236,
+          "max_stage_derivative": 6.758578072196819e-11,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.7528843336361561,
+            "spare_to_basal": 0.7528843336361563
+          }
+        }
+      ]
+    }
+  },
+  "excluded_endpoints": [
+    "atp_linked_to_basal",
+    "proton_leak_to_basal",
+    "absolute_ocr",
+    "treatment_response"
+  ],
+  "heterogeneity_summary": {
+    "high_pair_top_multipliers": {
+      "Vmax_CV": 0.5,
+      "g_H": 0.8
+    },
+    "interpretation": "The high-reserve candidate pair shifts the best diagnostic region toward lower g_H relative to the original R033/R039 pair. This is a source-heterogeneity sensitivity pattern, not a calibrated parameter estimate.",
+    "low_pair_top_multipliers": {
+      "Vmax_CV": 1.5,
+      "g_H": 1.0
+    },
+    "parameter_direction_shift_detected": true,
+    "reserve_group_shift": "high_pair_above_low_pair"
+  },
+  "input_artifacts": {
+    "R041": {
+      "path": "refine-logs/runs/R041/restricted_identifiability_screen.json",
+      "sha256": "ce54a53f3e1cca7a397d07645df317d3ed913391c2ab8dd855711374dd82b102"
+    },
+    "R042": {
+      "path": "refine-logs/runs/R042/digitization_uncertainty_propagation.json",
+      "sha256": "8247ec85445ace4cfd9403cadc8d1d3d517a7230cf973efeb2e841fb5436d00a"
+    },
+    "R048": {
+      "path": "refine-logs/runs/R048/maximal_spare_restricted_mapping.json",
+      "sha256": "94838764137c122ff29093a94c0b356f4f514b90455e8553b4f74c0144da50e8"
+    },
+    "R060": {
+      "path": "refine-logs/runs/R060/pmc4454361_control_relative_digitization.json",
+      "sha256": "23e9edbc314773ecf93f2dbe656959a88595a65b8b2be6fbce1dbf698ec4ff71"
+    },
+    "R060B": {
+      "path": "refine-logs/runs/R060B/pmc5124357_control_relative_digitization.json",
+      "sha256": "232c1b0a5acc2f06e0969ef73e3f4d6c5ff11ecb839776dfc8e18eb9898329df"
+    },
+    "R061": {
+      "path": "refine-logs/runs/R061/three_source_relative_consistency.json",
+      "sha256": "687c5f779277227bda035802ebbb9f9c9f743ef874fdec241cbd29db997ae327"
+    }
+  },
+  "interpretation": {
+    "calibrated_parameter_estimate": false,
+    "external_validation": false,
+    "safe_use": "Report, if needed, as conditional source-heterogeneity evidence showing that reserve-capacity source differences project onto the g_H direction in the coarse diagnostic grid."
+  },
+  "manuscript_modified": false,
+  "purpose": "Quantify whether the lower-reserve R033/R039 pair and higher-reserve R060/R060B pair prefer different regions of the prequalified R041 grid.",
+  "qc": {
+    "claim_gates_closed": true,
+    "failed_points": 0,
+    "four_source_records_present": true,
+    "manuscript_modified": false,
+    "nonstationary_points_excluded": 2,
+    "parameter_direction_shift_detected": true,
+    "passed": true,
+    "r048_contract_preserved": true,
+    "r061_blind_pooling_block_preserved": true,
+    "stationary_grid_points_used": 14
+  },
+  "recommended_next_run": {
+    "fallback": "If no figure update is desired, freeze R062 as the terminal OI1/OI2 computational evidence record.",
+    "objective": "Optionally update the audited Figure 1 source panel/metadata to show the low- vs high-reserve source split, without changing the manuscript text or claiming validation.",
+    "run_id": "R063",
+    "scope": "optional_figure1_heterogeneity_overlay"
+  },
+  "run_id": "R062",
+  "single_source_rankings": {
+    "PMID:24056030": {
+      "near_best_summary": {
+        "best_loss": 0.0009454375859662857,
+        "near_best_count": 4,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          }
+        ],
+        "near_best_threshold": 0.010945437585966286,
+        "single_winner": false
+      },
+      "observed_ratios": {
+        "maximal_to_basal": 1.6111111111111112,
+        "spare_to_basal": 0.6111111111111112
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.015591835838996038,
+            "spare_to_basal": 0.04059273121018553
+          },
+          "loss": 0.0009454375859662857,
+          "max_stage_derivative": 1.5677978728624586e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364281477231657,
+            "spare_to_basal": 0.6364281477231657
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.015593008980273382,
+            "spare_to_basal": 0.040595747669537496
+          },
+          "loss": 0.0009455783289538227,
+          "max_stage_derivative": 1.5643364685222205e-10,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364300674856993,
+            "spare_to_basal": 0.6364300674856992
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.015599226364597318,
+            "spare_to_basal": 0.04061173413132141
+          },
+          "loss": 0.0009463244061635422,
+          "max_stage_derivative": 3.0410970391220316e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.636440241831977,
+            "spare_to_basal": 0.6364402418319769
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.01923739485024295,
+            "spare_to_basal": 0.04993973247701061
+          },
+          "loss": 0.0014320271202497713,
+          "max_stage_derivative": 3.1111315780540938e-12,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.642404730476799,
+            "spare_to_basal": 0.6424047304767991
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.08433748477667519,
+            "spare_to_basal": 0.20863033530101888
+          },
+          "loss": 0.02531971407313574,
+          "max_stage_derivative": 1.3050607643172452e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.752882466916872,
+            "spare_to_basal": 0.752882466916872
+          }
+        }
+      ]
+    },
+    "PMID:25081478": {
+      "near_best_summary": {
+        "best_loss": 0.002810167331156833,
+        "near_best_count": 5,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 1.5,
+            "g_H": 0.5
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 0.5
+          },
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 0.5
+          },
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          }
+        ],
+        "near_best_threshold": 0.012810167331156834,
+        "single_winner": false
+      },
+      "observed_ratios": {
+        "maximal_to_basal": 1.9272,
+        "spare_to_basal": 1.0396
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.02059258899547245,
+            "spare_to_basal": -0.07208522692464256
+          },
+          "loss": 0.002810167331156833,
+          "max_stage_derivative": 6.160501622720638e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9672974759830923,
+            "spare_to_basal": 0.9672974759830923
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.01876824916437303,
+            "spare_to_basal": -0.07579908955414888
+          },
+          "loss": 0.003048874576966935,
+          "max_stage_derivative": 2.6534306847280328e-11,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9637117286433947,
+            "spare_to_basal": 0.9637117286433946
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.018496009926794565,
+            "spare_to_basal": -0.07635389748954413
+          },
+          "loss": 0.0030860100225279484,
+          "max_stage_derivative": 4.864301339761466e-12,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9631772020224263,
+            "spare_to_basal": 0.9631772020224264
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.01834887486408565,
+            "spare_to_basal": -0.07665381557938197
+          },
+          "loss": 0.0031062443258278883,
+          "max_stage_derivative": 2.5602856997680723e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9628883710707992,
+            "spare_to_basal": 0.9628883710707992
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.10439231290639028,
+            "spare_to_basal": 0.09154386342326423
+          },
+          "loss": 0.009639016962201477,
+          "max_stage_derivative": 2.503528269364948e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 2.139261091845093,
+            "spare_to_basal": 1.139261091845093
+          }
+        }
+      ]
+    },
+    "PMID:27889640": {
+      "near_best_summary": {
+        "best_loss": 8.424327705016163e-05,
+        "near_best_count": 1,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          }
+        ],
+        "near_best_threshold": 0.010084243277050162,
+        "single_winner": true
+      },
+      "observed_ratios": {
+        "maximal_to_basal": 2.1312,
+        "spare_to_basal": 1.1252
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.003775283860981804,
+            "spare_to_basal": 0.012419089574897735
+          },
+          "loss": 8.424327705016163e-05,
+          "max_stage_derivative": 2.503528269364948e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 2.139261091845093,
+            "spare_to_basal": 1.139261091845093
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.08002444004993603,
+            "spare_to_basal": -0.15121000077300906
+          },
+          "loss": 0.014634187669539602,
+          "max_stage_derivative": 6.160501622720638e-11,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9672974759830923,
+            "spare_to_basal": 0.9672974759830923
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.08184877988103545,
+            "spare_to_basal": -0.15492386340251535
+          },
+          "loss": 0.015350313109787714,
+          "max_stage_derivative": 2.6534306847280328e-11,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9637117286433947,
+            "spare_to_basal": 0.9637117286433946
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.08212101911861391,
+            "spare_to_basal": -0.1554786713379106
+          },
+          "loss": 0.015458739511040886,
+          "max_stage_derivative": 4.864301339761466e-12,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9631772020224263,
+            "spare_to_basal": 0.9631772020224264
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.08226815418132283,
+            "spare_to_basal": -0.15577858942774847
+          },
+          "loss": 0.015517509058250466,
+          "max_stage_derivative": 2.5602856997680723e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 0.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.9628883710707992,
+            "spare_to_basal": 0.9628883710707992
+          }
+        }
+      ]
+    },
+    "PMID:31931869": {
+      "near_best_summary": {
+        "best_loss": 0.020844716220161392,
+        "near_best_count": 2,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 1.5
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 1.5
+          }
+        ],
+        "near_best_threshold": 0.03084471622016139,
+        "single_winner": false
+      },
+      "observed_ratios": {
+        "maximal_to_basal": 1.4938271604938271,
+        "spare_to_basal": 0.4938271604938272
+      },
+      "top_ranked": [
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.06036714765343015,
+            "spare_to_basal": -0.1950518903382168
+          },
+          "loss": 0.020844716220161392,
+          "max_stage_derivative": 3.760261763421924e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.406317018269176,
+            "spare_to_basal": 0.40631701826917604
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": -0.06037269532398254,
+            "spare_to_basal": -0.19507109169189008
+          },
+          "loss": 0.020848796577274106,
+          "max_stage_derivative": 2.9084348495377055e-07,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.4063092165073072,
+            "spare_to_basal": 0.4063092165073072
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.09117451700500306,
+            "spare_to_basal": 0.2536859466708939
+          },
+          "loss": 0.0363346760447016,
+          "max_stage_derivative": 1.5677978728624586e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364281477231657,
+            "spare_to_basal": 0.6364281477231657
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.09117569014628041,
+            "spare_to_basal": 0.25368896313024586
+          },
+          "loss": 0.03633554824387489,
+          "max_stage_derivative": 1.5643364685222205e-10,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364300674856993,
+            "spare_to_basal": 0.6364300674856992
+          }
+        },
+        {
+          "log_ratio_residual": {
+            "maximal_to_basal": 0.09118190753060434,
+            "spare_to_basal": 0.25370494959202977
+          },
+          "loss": 0.03634017085420703,
+          "max_stage_derivative": 3.0410970391220316e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.636440241831977,
+            "spare_to_basal": 0.6364402418319769
+          }
+        }
+      ]
+    }
+  },
+  "source_groups": {
+    "high_reserve_pair": {
+      "mean_ratios": {
+        "maximal_to_basal": 2.0292000000000003,
+        "spare_to_basal": 1.0824
+      },
+      "source_role": "R060/R060B high-reserve matched candidates",
+      "sources": [
+        "PMID:25081478",
+        "PMID:27889640"
+      ],
+      "within_group_spread": {
+        "maximal_to_basal": {
+          "max": 2.1312,
+          "min": 1.9272,
+          "range": 0.20400000000000018
+        },
+        "spare_to_basal": {
+          "max": 1.1252,
+          "min": 1.0396,
+          "range": 0.0855999999999999
+        }
+      }
+    },
+    "low_reserve_pair": {
+      "mean_ratios": {
+        "maximal_to_basal": 1.5524691358024691,
+        "spare_to_basal": 0.5524691358024691
+      },
+      "source_role": "existing R033/R039 matched pair",
+      "sources": [
+        "PMID:31931869",
+        "PMID:24056030"
+      ],
+      "within_group_spread": {
+        "maximal_to_basal": {
+          "max": 1.6111111111111112,
+          "min": 1.4938271604938271,
+          "range": 0.11728395061728403
+        },
+        "spare_to_basal": {
+          "max": 0.6111111111111112,
+          "min": 0.4938271604938272,
+          "range": 0.11728395061728397
+        }
+      }
+    }
+  },
+  "source_ratios": {
+    "PMID:24056030": {
+      "maximal_to_basal": 1.6111111111111112,
+      "spare_to_basal": 0.6111111111111112
+    },
+    "PMID:25081478": {
+      "maximal_to_basal": 1.9272,
+      "spare_to_basal": 1.0396
+    },
+    "PMID:27889640": {
+      "maximal_to_basal": 2.1312,
+      "spare_to_basal": 1.1252
+    },
+    "PMID:31931869": {
+      "maximal_to_basal": 1.4938271604938271,
+      "spare_to_basal": 0.4938271604938272
+    }
+  },
+  "status": "complete_conditional_heterogeneity_mapping",
+  "used_endpoints": [
+    "maximal_to_basal",
+    "spare_to_basal"
+  ]
+}

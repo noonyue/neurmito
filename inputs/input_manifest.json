@@ -1,0 +1,7 @@
+{
+  "run_id": "R071",
+  "large_excluded_artifact": "R021/trajectories.csv",
+  "rebuild_command": "python scripts/source_audit/run_r021_ews_cohort.py",
+  "locked_inputs": "inputs/audit_runs",
+  "source_records": "inputs/source_records"
+}

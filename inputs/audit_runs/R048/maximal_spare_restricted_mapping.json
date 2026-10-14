@@ -1,0 +1,378 @@
+{
+  "between_source_interval_overlap": {
+    "maximal_to_basal": {
+      "gap": 0.0,
+      "intersection_high": 1.5569620253164556,
+      "intersection_low": 1.5543478260869563,
+      "overlaps": true
+    },
+    "spare_to_basal": {
+      "gap": 0.0,
+      "intersection_high": 0.5569620253164557,
+      "intersection_low": 0.5543478260869564,
+      "overlaps": true
+    }
+  },
+  "claim_gate": {
+    "absolute_calibration_allowed": false,
+    "atp_linked_used": false,
+    "external_validation_claim_allowed": false,
+    "figure1_mcmc_allowed": false,
+    "maximal_spare_contract_used": true,
+    "proton_leak_fit_target_used": false,
+    "rank_stable_under_digitization": false,
+    "source_values_pooled": false
+  },
+  "contract_source": "refine-logs/runs/R047/cross_source_formula_coordination.json",
+  "excluded_endpoints": [
+    "atp_linked_to_basal",
+    "proton_leak_to_basal",
+    "independent_oligomycin_to_basal",
+    "absolute_ocr"
+  ],
+  "fit_directions": {
+    "fit_R033_reserve_R039": {
+      "digitization_interval_rank_stability": {
+        "stable_single_winner": false,
+        "top_train_loss_interval": {
+          "high": 0.017637160046691174,
+          "low": 0.002318451706417805
+        },
+        "unique_winners": 2,
+        "winner_counts": {
+          "{\"Vmax_CV\": 0.8, \"g_H\": 1.5}": 2,
+          "{\"Vmax_CV\": 1.5, \"g_H\": 1.0}": 2
+        },
+        "winner_reserve_loss_interval": {
+          "high": 0.14022435856300058,
+          "low": 0.0015681569014272556
+        }
+      },
+      "near_best_summary": {
+        "best_train_loss": 0.020844716220161392,
+        "near_best_count": 2,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 1.5
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 1.5
+          }
+        ],
+        "near_best_threshold": 0.03084471622016139,
+        "single_winner": false
+      },
+      "reserve_source": "PMID:24056030",
+      "top_ranked": [
+        {
+          "max_stage_derivative": 3.760261763421924e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.406317018269176,
+            "spare_to_basal": 0.40631701826917604
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": -0.13594982881943718,
+            "spare_to_basal": -0.40814510579892516
+          },
+          "reserve_loss": 0.09253239167182503,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": -0.06036714765343015,
+            "spare_to_basal": -0.1950518903382168
+          },
+          "train_loss": 0.020844716220161392
+        },
+        {
+          "max_stage_derivative": 2.9084348495377055e-07,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.4063092165073072,
+            "spare_to_basal": 0.4063092165073072
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": -0.13595537648998957,
+            "spare_to_basal": -0.40816430715259844
+          },
+          "reserve_loss": 0.09254098301494776,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": -0.06037269532398254,
+            "spare_to_basal": -0.19507109169189008
+          },
+          "train_loss": 0.020848796577274106
+        },
+        {
+          "max_stage_derivative": 1.5677978728624586e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364281477231657,
+            "spare_to_basal": 0.6364281477231657
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.015591835838996038,
+            "spare_to_basal": 0.04059273121018553
+          },
+          "reserve_loss": 0.0009454375859662857,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.09117451700500306,
+            "spare_to_basal": 0.2536859466708939
+          },
+          "train_loss": 0.0363346760447016
+        },
+        {
+          "max_stage_derivative": 1.5643364685222205e-10,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364300674856993,
+            "spare_to_basal": 0.6364300674856992
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.015593008980273382,
+            "spare_to_basal": 0.040595747669537496
+          },
+          "reserve_loss": 0.0009455783289538227,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.09117569014628041,
+            "spare_to_basal": 0.25368896313024586
+          },
+          "train_loss": 0.03633554824387489
+        },
+        {
+          "max_stage_derivative": 3.0410970391220316e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.636440241831977,
+            "spare_to_basal": 0.6364402418319769
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.015599226364597318,
+            "spare_to_basal": 0.04061173413132141
+          },
+          "reserve_loss": 0.0009463244061635422,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.09118190753060434,
+            "spare_to_basal": 0.25370494959202977
+          },
+          "train_loss": 0.03634017085420703
+        }
+      ],
+      "train_source": "PMID:31931869"
+    },
+    "fit_R039_reserve_R033": {
+      "digitization_interval_rank_stability": {
+        "stable_single_winner": false,
+        "top_train_loss_interval": {
+          "high": 0.010856989739704722,
+          "low": 0.0010566272611835109
+        },
+        "unique_winners": 2,
+        "winner_counts": {
+          "{\"Vmax_CV\": 0.5, \"g_H\": 1.5}": 2,
+          "{\"Vmax_CV\": 1.5, \"g_H\": 1.0}": 2
+        },
+        "winner_reserve_loss_interval": {
+          "high": 0.08637148987354773,
+          "low": 0.01013336849409163
+        }
+      },
+      "near_best_summary": {
+        "best_train_loss": 0.0009454375859662857,
+        "near_best_count": 4,
+        "near_best_multipliers": [
+          {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          }
+        ],
+        "near_best_threshold": 0.010945437585966286,
+        "single_winner": false
+      },
+      "reserve_source": "PMID:31931869",
+      "top_ranked": [
+        {
+          "max_stage_derivative": 1.5677978728624586e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364281477231657,
+            "spare_to_basal": 0.6364281477231657
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.09117451700500306,
+            "spare_to_basal": 0.2536859466708939
+          },
+          "reserve_loss": 0.0363346760447016,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.015591835838996038,
+            "spare_to_basal": 0.04059273121018553
+          },
+          "train_loss": 0.0009454375859662857
+        },
+        {
+          "max_stage_derivative": 1.5643364685222205e-10,
+          "multipliers": {
+            "Vmax_CV": 1.0,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.6364300674856993,
+            "spare_to_basal": 0.6364300674856992
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.09117569014628041,
+            "spare_to_basal": 0.25368896313024586
+          },
+          "reserve_loss": 0.03633554824387489,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.015593008980273382,
+            "spare_to_basal": 0.040595747669537496
+          },
+          "train_loss": 0.0009455783289538227
+        },
+        {
+          "max_stage_derivative": 3.0410970391220316e-08,
+          "multipliers": {
+            "Vmax_CV": 0.8,
+            "g_H": 1.0
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.636440241831977,
+            "spare_to_basal": 0.6364402418319769
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.09118190753060434,
+            "spare_to_basal": 0.25370494959202977
+          },
+          "reserve_loss": 0.03634017085420703,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.015599226364597318,
+            "spare_to_basal": 0.04061173413132141
+          },
+          "train_loss": 0.0009463244061635422
+        },
+        {
+          "max_stage_derivative": 3.1111315780540938e-12,
+          "multipliers": {
+            "Vmax_CV": 0.5,
+            "g_H": 1.5
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.642404730476799,
+            "spare_to_basal": 0.6424047304767991
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.09482007601624998,
+            "spare_to_basal": 0.263032947937719
+          },
+          "reserve_loss": 0.0390885892582671,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.01923739485024295,
+            "spare_to_basal": 0.04993973247701061
+          },
+          "train_loss": 0.0014320271202497713
+        },
+        {
+          "max_stage_derivative": 1.3050607643172452e-10,
+          "multipliers": {
+            "Vmax_CV": 1.5,
+            "g_H": 0.8
+          },
+          "predicted_relative_constraints": {
+            "maximal_to_basal": 1.752882466916872,
+            "spare_to_basal": 0.752882466916872
+          },
+          "reserve_log_ratio_residual": {
+            "maximal_to_basal": 0.1599201659426822,
+            "spare_to_basal": 0.42172355076172724
+          },
+          "reserve_loss": 0.10171260637110707,
+          "train_log_ratio_residual": {
+            "maximal_to_basal": 0.08433748477667519,
+            "spare_to_basal": 0.20863033530101888
+          },
+          "train_loss": 0.02531971407313574
+        }
+      ],
+      "train_source": "PMID:24056030"
+    }
+  },
+  "grid": {
+    "Vmax_CV": [
+      0.5,
+      0.8,
+      1.0,
+      1.5
+    ],
+    "g_H": [
+      0.5,
+      0.8,
+      1.0,
+      1.5
+    ],
+    "n_points": 16
+  },
+  "grid_source": "refine-logs/runs/R041/restricted_identifiability_screen.json",
+  "interpretation": "The reduced endpoint contract removes the ATP-linked mismatch from the objective, but the result remains a source-holdout diagnostic. It is not an absolute calibration or external validation because normalization/protocol differences and weak biological mapping remain unresolved.",
+  "parameter_families": {
+    "Vmax_CV": "ATP synthase capacity multiplier",
+    "g_H": "basal proton conductance multiplier"
+  },
+  "protocol": {
+    "duration_s": 10000.0,
+    "ocr_proxy": "Complex IV flux J_C4",
+    "sample_count": 101,
+    "stationarity_tolerance": 1e-06
+  },
+  "qc": {
+    "failed_points": 0,
+    "nonstationary_points_excluded": 2,
+    "stationary_grid_points_used": 14
+  },
+  "run_id": "R048",
+  "screen_status": "complete_maximal_spare_restricted_mapping",
+  "source_ratios": {
+    "PMID:24056030": {
+      "maximal_to_basal": 1.6111111111111112,
+      "spare_to_basal": 0.6111111111111112
+    },
+    "PMID:31931869": {
+      "maximal_to_basal": 1.4938271604938271,
+      "spare_to_basal": 0.4938271604938272
+    }
+  },
+  "uncertainty_source": "refine-logs/runs/R042/digitization_uncertainty_propagation.json",
+  "used_endpoints": [
+    "maximal_to_basal",
+    "spare_to_basal"
+  ]
+}

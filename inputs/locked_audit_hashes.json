@@ -1,0 +1,30 @@
+{
+  "checkpoint": "before_submission_fix",
+  "original_commit": "a683c7d01c49aa3e33272684df78f416a69976e6",
+  "files": {
+    "inputs/audit_runs/R009/additive_proxy_residuals.csv": "2a7c835f1c4062d99021850a8c9cdc6ce5c1f36558644439ec5b9361ab54a7ee",
+    "inputs/audit_runs/R009/final_dpsi_by_variant_matrix.csv": "1841472752f7117a5c2117f73fe57b8ab882a0b40d9965163f7745bb1c73e869",
+    "inputs/audit_runs/R009/mechanism_ablation_summary.csv": "2ffdb355d3a323e09cf064627e3fe7b7457a59d6d513ad8a47e0ca6f99baca87",
+    "inputs/audit_runs/R010/robustness_grid.csv": "89ac637216b5d6974a9af63f50f81f4a95cbe7da9684401495f41ff9bc477eec",
+    "inputs/audit_runs/R010/robustness_summary.csv": "4894f31ba64e5d3e6a9549509636a9d6fe6fcf4bafcb28bc60b94d168d8587e4",
+    "inputs/audit_runs/R014B/resolved_transition_grid.csv": "483a6aa536d327d3dc626e672a349a5c9a4dbc045492114f8a8ec5547ba701c1",
+    "inputs/audit_runs/R014B/transition_band_summary.csv": "00cc506b1bdec828289fcd0ab35f8bebc38dc9b2940b4fde859fa9f9fca9323f",
+    "inputs/audit_runs/R021/conditions.csv": "8e95848307c7d93ba1ef2d03a9f354c463c43df6553102e0873dd9182b6ac22e",
+    "inputs/audit_runs/R021/events.csv": "b73c87d0c2ff84bb4291ed3fb68772269ad2a9175f8faf2c2500b370d33bbc2f",
+    "inputs/audit_runs/R021/qc_summary.json": "96f9472dd101cc3a7d6e2cddae4fe333215604bf376fd3dc0cbba9ae4b218a34",
+    "inputs/audit_runs/R021/split_manifest.csv": "40288e72f77900863e0943a950208d61a3bd2dbe53e56170716f126ec8f219cc",
+    "inputs/audit_runs/R023/locked_test_metrics.json": "de15bf55c2027c595b0ef31c01ea84d02345aa2ee794c1f4b2178d5ada503425",
+    "inputs/audit_runs/R023/negative_controls.json": "7c4f883a25349d458868d7942dbca30a3a5d5236ccfd32cce29d5ccb9fc34527",
+    "inputs/audit_runs/R023/test_predictions.csv": "8f1a87598741d318136c8cb15d5868c4d7fbb852c137fa19a3499ad59a43dfc9",
+    "inputs/audit_runs/R025/metadata.json": "620a968127af595a4e62c8c83e30d1a8372985e5474059e7144cf41d3591e6d2",
+    "inputs/audit_runs/R025/metrics.csv": "58d4f0bdcd5e396af47bbd237e89baa41ccfc015e37338ee03b5008b45a7f711",
+    "inputs/audit_runs/R025/predictions.csv": "5f0c7a45aa2087c91cf3541ccab4be5a6106df9c6053142228df9d667f25f3ca",
+    "inputs/audit_runs/R025/summary.csv": "1e955101fe2c2add1a80de2e7b3a47c8d27d9e76cffb4c0b95c8c972f4436b31",
+    "inputs/audit_runs/R042/digitization_uncertainty_propagation.json": "8247ec85445ace4cfd9403cadc8d1d3d517a7230cf973efeb2e841fb5436d00a",
+    "inputs/audit_runs/R047/cross_source_formula_coordination.json": "ef4a7bf0c6cd7afcfa50806734eb72f06bb99164c43017c5ee2e85b12abc2c14",
+    "inputs/audit_runs/R048/maximal_spare_restricted_mapping.json": "94838764137c122ff29093a94c0b356f4f514b90455e8553b4f74c0144da50e8",
+    "inputs/audit_runs/R060/pmc4454361_control_relative_digitization.json": "23e9edbc314773ecf93f2dbe656959a88595a65b8b2be6fbce1dbf698ec4ff71",
+    "inputs/audit_runs/R060B/pmc5124357_control_relative_digitization.json": "232c1b0a5acc2f06e0969ef73e3f4d6c5ff11ecb839776dfc8e18eb9898329df",
+    "inputs/audit_runs/R062/conditional_heterogeneity_mapping.json": "1bfe05d73a6d2ee3b1358525bb82346ace3d5fab253666e8c2bcc2e322437876"
+  }
+}

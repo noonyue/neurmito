@@ -1,0 +1,8 @@
+{
+  "scope": "R071 computational parameter and source-audit inputs",
+  "absolute_ocr_calibration": false,
+  "external_validation": false,
+  "source_local_relative_constraints": true,
+  "audit_runs": "inputs/audit_runs",
+  "source_records": "inputs/source_records"
+}

@@ -1,0 +1,159 @@
+{
+  "claim_gate": {
+    "absolute_calibration_allowed": false,
+    "atp_formula_equivalence_established": false,
+    "external_validation_claim_allowed": false,
+    "figure1_mcmc_allowed": false,
+    "minimal_maximal_spare_contract_established": true,
+    "proton_leak_formula_equivalence_established": false,
+    "r048_may_use_atp_linked": false,
+    "r048_may_use_proton_leak_as_fit_target": false,
+    "r048_restricted_mapping_allowed": true
+  },
+  "endpoint_equivalence_matrix": {
+    "A": {
+      "availability": "all_sources_but_mixed_status",
+      "decision": "blocked_for_cross_source_target",
+      "reason": "R046 is inferred, R033 lacks independent O, and R039 has conflicting O reconstructions"
+    },
+    "B": {
+      "availability": "all_sources",
+      "decision": "source_local_denominator_only",
+      "reason": "normalization bases differ across sources"
+    },
+    "F": {
+      "availability": "all_sources",
+      "decision": "relative_ratio_compatible",
+      "reason": "all sources expose maximal/FCCP relative to their own basal stage"
+    },
+    "N": {
+      "availability": "r039_and_r046_only",
+      "decision": "not_common"
+    },
+    "O": {
+      "availability": "independent_only_in_r046",
+      "decision": "not_common"
+    },
+    "P": {
+      "availability": "all_sources_but_mixed_status",
+      "decision": "source_local_diagnostic_only",
+      "reason": "R046 is inferred from independent stages while R033/R039 are endpoint bars with non-equivalent formula evidence"
+    },
+    "spare": {
+      "availability": "all_sources",
+      "decision": "relative_ratio_compatible",
+      "formula": "F - B"
+    }
+  },
+  "minimum_common_observation_contract": {
+    "blocked_endpoints": [
+      "atp_linked_to_basal",
+      "independent_oligomycin_to_basal",
+      "absolute_ocr"
+    ],
+    "diagnostic_only_endpoints": [
+      "proton_leak_to_basal_with_source_formula_tag"
+    ],
+    "fit_or_holdout_endpoints": [
+      "maximal_to_basal",
+      "spare_to_basal"
+    ],
+    "matched_sources_for_r048": [
+      "R033",
+      "R039"
+    ],
+    "pool_source_values": false,
+    "r046_role": "formula_reference_only",
+    "version": "relative_ocr_constraints_v2_maximal_spare_only"
+  },
+  "next_decision": "Proceed conditionally to R048 using only maximal/basal and spare/basal for the matched R033/R039 source-holdout mapping. Keep R046 as a formula reference and do not add ATP-linked or proton-leak fit targets.",
+  "records": {
+    "R033": {
+      "formulas": {
+        "A": "source-described as B - oligomycin-insensitive OCR",
+        "P": "source-described as O - N",
+        "spare": "F - B"
+      },
+      "matched_e18_div7_contract": true,
+      "normalization": "pmol/min/cell_number_normalized",
+      "preparation": "E18 DIV7 primary rat cortical neurons, untreated control",
+      "ratios": {
+        "atp_linked_to_basal": 0.790123,
+        "maximal_to_basal": 1.493827,
+        "proton_leak_to_basal": 0.209877,
+        "spare_to_basal": 0.493827
+      },
+      "source_id": "PMID:31931869",
+      "terms": {
+        "A": "digitized",
+        "B": "digitized",
+        "F": "digitized",
+        "N": "unavailable",
+        "O": "unavailable",
+        "P": "digitized"
+      }
+    },
+    "R039": {
+      "formula_qc": {
+        "O_from_A": 8.333333,
+        "O_from_P_and_N": 5.333333,
+        "O_identity_gap": 3.0
+      },
+      "formulas": {
+        "A": "oligomycin-inhibitable OCR component",
+        "O_from_A": "B - A",
+        "O_from_P_and_N": "P + N",
+        "P": "remaining OCR after oligomycin attributed to proton leak/gradient processes",
+        "spare": "F - B"
+      },
+      "matched_e18_div7_contract": true,
+      "normalization": "pmol/min/ug_protein",
+      "preparation": "DIV7 E18 primary rat cortical neurons, untreated control",
+      "ratios": {
+        "atp_linked_to_basal": 0.444444,
+        "maximal_to_basal": 1.611111,
+        "non_mito_to_basal": 0.177778,
+        "proton_leak_to_basal": 0.177778,
+        "spare_to_basal": 0.611111
+      },
+      "source_id": "PMID:24056030",
+      "terms": {
+        "A": "digitized",
+        "B": "digitized",
+        "F": "digitized",
+        "N": "digitized",
+        "O": "inferred_conflicting",
+        "P": "digitized"
+      }
+    },
+    "R046": {
+      "formulas": {
+        "A": "B - O",
+        "P": "O - N",
+        "spare": "F - B"
+      },
+      "matched_e18_div7_contract": false,
+      "normalization": "relative_to_baseline",
+      "preparation": "primary rat cortical neurons, DIV10; embryonic day not stated in the reviewed source",
+      "ratios": {
+        "atp_linked_to_basal": 0.62759,
+        "maximal_to_basal": 1.59055,
+        "non_mito_to_basal": 0.212,
+        "proton_leak_to_basal": 0.16041,
+        "spare_to_basal": 0.59055
+      },
+      "scientific_role": "relative formula reference only; not a matched fit, calibration, or validation source",
+      "source_id": "PMID:26016889",
+      "terms": {
+        "A": "inferred",
+        "B": "reported",
+        "F": "digitized",
+        "N": "digitized",
+        "O": "digitized",
+        "P": "inferred"
+      }
+    }
+  },
+  "run_id": "R047",
+  "status": "complete_minimum_common_contract"
+}

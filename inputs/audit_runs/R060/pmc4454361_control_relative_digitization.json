@@ -1,0 +1,131 @@
+{
+  "absolute_calibration_eligible": false,
+  "axis_calibration": {
+    "basal": {
+      "control_bar_top_px": 215.0,
+      "metric": "basal OCR at 2 h after 0 nM rotenone",
+      "panel": "Figure 1C",
+      "reference_value": 10.0,
+      "y_reference_px": 195.0,
+      "y_zero_px": 314.0
+    },
+    "maximal": {
+      "control_bar_top_px": 405.0,
+      "metric": "maximal OCR after FCCP, 0 nM rotenone",
+      "panel": "Figure 1F",
+      "reference_value": 20.0,
+      "y_reference_px": 381.0,
+      "y_zero_px": 502.0
+    },
+    "spare": {
+      "control_bar_top_px": 439.0,
+      "metric": "reserve capacity, 0 nM rotenone",
+      "panel": "Figure 1G",
+      "reference_value": 15.0,
+      "y_reference_px": 392.0,
+      "y_zero_px": 503.0
+    }
+  },
+  "claim_gate": {
+    "absolute_ocr_calibration_reopened": false,
+    "atp_linked_pooling_allowed": false,
+    "external_validation_claim_allowed": false,
+    "mcmc_or_bayesian_allowed": false,
+    "proton_leak_fitting_allowed": false
+  },
+  "digitized_metrics": {
+    "basal": {
+      "fit_eligible_under_r047": false,
+      "interval": [
+        7.9832,
+        8.6555
+      ],
+      "pixel_uncertainty": {
+        "method": "all eight axis/bar coordinate corners",
+        "plus_minus_px": 2.0,
+        "propagated_coordinates": [
+          "y_zero_px",
+          "y_reference_px",
+          "control_bar_top_px"
+        ]
+      },
+      "source": "0 nM bar in Figure 1C",
+      "value": 8.3193
+    },
+    "maximal": {
+      "fit_eligible_under_r047": false,
+      "interval": [
+        15.3719,
+        16.6942
+      ],
+      "pixel_uncertainty": {
+        "method": "all eight axis/bar coordinate corners",
+        "plus_minus_px": 2.0,
+        "propagated_coordinates": [
+          "y_zero_px",
+          "y_reference_px",
+          "control_bar_top_px"
+        ]
+      },
+      "source": "0 nM bar in Figure 1F",
+      "value": 16.0331
+    },
+    "spare": {
+      "fit_eligible_under_r047": false,
+      "interval": [
+        8.1081,
+        9.1892
+      ],
+      "pixel_uncertainty": {
+        "method": "all eight axis/bar coordinate corners",
+        "plus_minus_px": 2.0,
+        "propagated_coordinates": [
+          "y_zero_px",
+          "y_reference_px",
+          "control_bar_top_px"
+        ]
+      },
+      "source": "0 nM bar in Figure 1G",
+      "value": 8.6486
+    }
+  },
+  "doi": "10.1111/jnc.12844",
+  "external_validation_eligible": false,
+  "image_shape": [
+    714,
+    615,
+    3
+  ],
+  "manuscript_modified": false,
+  "matched_source_candidate": true,
+  "normalization_basis": "protein_normalized_source_local",
+  "platform": "Seahorse XF24",
+  "pmcid": "PMC4454361",
+  "preparation": "E18 primary rat cortical neurons, DIV7, 0 nM rotenone control",
+  "relative_ratios": {
+    "maximal_to_basal": {
+      "fit_eligible_under_r047": true,
+      "formula": "maximal / basal",
+      "interval": [
+        1.776,
+        2.0912
+      ],
+      "value": 1.9272
+    },
+    "spare_to_basal": {
+      "fit_eligible_under_r047": true,
+      "formula": "spare / basal",
+      "interval": [
+        0.9368,
+        1.1511
+      ],
+      "value": 1.0396
+    }
+  },
+  "run_id": "R060",
+  "scientific_use": "source-local matched-candidate ratios for OI1/R060; not an absolute OCR calibration or external-validation record",
+  "source_figure": "Figure 1C/F/G, 0 nM rotenone control bars",
+  "source_id": "PMID:25081478",
+  "source_image": "sources/R060_PMC4454361_Fig1.jpg",
+  "source_image_sha256": "cce746dec7bef62fed5e3e24d5c419428c9fa9a6d1155cfd352963e2dd54508e"
+}

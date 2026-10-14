@@ -1,0 +1,82 @@
+[
+  {
+    "auprc": 1.0,
+    "auroc": 1.0,
+    "bootstrap": {
+      "auroc_ci_high": 1.0,
+      "auroc_ci_low": 1.0,
+      "auroc_median": 1.0,
+      "n_boot": 1000
+    },
+    "brier": 4.965252239776971e-05,
+    "lead_seconds": 10.0,
+    "median_positive_lead_time_s": 10.0,
+    "model": "locked_baseline",
+    "n": 124,
+    "positive_rate": 0.5887096774193549,
+    "reference_time_s": 62.0,
+    "threshold": 0.8933435293135652,
+    "threshold_accuracy": 1.0,
+    "window_seconds": 20.0
+  },
+  {
+    "auprc": 0.930967771969935,
+    "auroc": 0.8924731182795699,
+    "bootstrap": {
+      "auroc_ci_high": 0.9434007409415379,
+      "auroc_ci_low": 0.8319538504761341,
+      "auroc_median": 0.8947038442501237,
+      "n_boot": 1000
+    },
+    "brier": 0.11930094523348561,
+    "lead_seconds": 20.0,
+    "median_positive_lead_time_s": 20.0,
+    "model": "best_ews",
+    "n": 113,
+    "positive_rate": 0.5486725663716814,
+    "reference_time_s": 52.0,
+    "threshold": 0.6756481139259711,
+    "threshold_accuracy": 0.831858407079646,
+    "window_seconds": 5.0
+  },
+  {
+    "auprc": 0.998376519075799,
+    "auroc": 0.9976470588235294,
+    "bootstrap": {
+      "auroc_ci_high": 1.0,
+      "auroc_ci_low": 0.9920902095406064,
+      "auroc_median": 0.9981303418803419,
+      "n_boot": 1000
+    },
+    "brier": 0.017103480456546565,
+    "lead_seconds": 10.0,
+    "median_positive_lead_time_s": 10.0,
+    "model": "best_dpsi",
+    "n": 126,
+    "positive_rate": 0.5952380952380952,
+    "reference_time_s": 62.0,
+    "threshold": 0.5691291328094771,
+    "threshold_accuracy": 0.9761904761904762,
+    "window_seconds": 30.0
+  },
+  {
+    "auprc": 0.9297424925718797,
+    "auroc": 0.881404174573055,
+    "bootstrap": {
+      "auroc_ci_high": 0.9387415285863562,
+      "auroc_ci_low": 0.8158667660612632,
+      "auroc_median": 0.883192267391643,
+      "n_boot": 1000
+    },
+    "brier": 0.12252850541759053,
+    "lead_seconds": 20.0,
+    "median_positive_lead_time_s": 20.0,
+    "model": "best_slope",
+    "n": 113,
+    "positive_rate": 0.5486725663716814,
+    "reference_time_s": 52.0,
+    "threshold": 0.6373940658476985,
+    "threshold_accuracy": 0.831858407079646,
+    "window_seconds": 5.0
+  }
+]
