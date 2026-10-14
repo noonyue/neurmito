@@ -1,16 +1,22 @@
-LICENSE DECISION REQUIRED
+NO OPEN-SOURCE LICENSE — ALL RIGHTS RESERVED
 
-This release candidate has not been assigned a public software license.
-No permission to copy, modify, redistribute, sublicense, or publish this
-candidate is granted by this file.
+Copyright ownership is retained by the respective NeurMito-DT code authors
+and any other applicable rights holders.
 
-Before reviewer distribution or public release, the repository owner and all
-relevant copyright holders must approve:
+This repository and its release archives are publicly accessible without an
+account or access request. Public accessibility does not grant a license.
+Except where mandatory law provides otherwise, no permission is granted to
+use, execute, copy, modify, adapt, merge, publish, distribute, sublicense,
+sell, or create derivative works from the software or the project-generated
+data files in this repository.
 
-1. the software license;
-2. the copyright notice and year;
-3. the treatment of third-party and literature-derived assets; and
-4. the contribution terms, if external contributions will be accepted.
+The repository may be viewed and downloaded for transparency and inspection.
+Any permission beyond viewing and downloading must be obtained in writing from
+the applicable rights holder before the material is used.
 
-This notice must be replaced by the approved license text before a public
-release is created. It must not be represented as an open-source license.
+Third-party publications, identifiers, and source descriptions cited by this
+repository remain subject to their own copyright and license terms. No
+third-party article image is included in this release, and this notice does not
+override any right or license attached to an original source.
+
+No Zenodo DOI or other archival DOI has been assigned to this software release.

@@ -1,12 +1,26 @@
 cff-version: 1.2.0
 title: "NeurMito-DT: source-aware reserve analysis and nonlinear mitochondrial stress-state transitions"
-message: "AUTHOR_CONFIRMATION_REQUIRED: U06-A reviewer access is technically prepared but not author-approved; U06-B public release and persistent identifier do not exist."
+message: "Cite this software release using the metadata below. Public access does not grant permission to use, modify, or redistribute the software or included data; see LICENSE."
 type: software
-# The historical repository URL is https://github.com/noonyue/neurmito, but it
-# contains no public commit, tag or Release for this candidate. Version, DOI,
-# repository-code, license and release-date fields are intentionally omitted.
 authors:
-  []
-# Author names, affiliations, ORCID identifiers, and corresponding-author
-# details are intentionally supplied in the submission metadata package.
-# Populate this list before creating the public release tag.
+  - family-names: Yue
+    given-names: Jianan
+    affiliation: "School of Medicine and Health, Key Laboratory of Microsystems and Microstructures Manufacturing (Ministry of Education), HIT Zhengzhou Advanced Research Institute, Harbin Institute of Technology, Harbin 150001, China."
+  - family-names: Tian
+    given-names: Yu
+    affiliation: "School of Medicine and Health, Key Laboratory of Microsystems and Microstructures Manufacturing (Ministry of Education), HIT Zhengzhou Advanced Research Institute, Harbin Institute of Technology, Harbin 150001, China."
+  - family-names: Liu
+    given-names: Donghao
+    affiliation: "School of Medicine and Health, Key Laboratory of Microsystems and Microstructures Manufacturing (Ministry of Education), HIT Zhengzhou Advanced Research Institute, Harbin Institute of Technology, Harbin 150001, China."
+  - family-names: He
+    given-names: Liangcan
+    affiliation: "School of Medicine and Health, Key Laboratory of Microsystems and Microstructures Manufacturing (Ministry of Education), HIT Zhengzhou Advanced Research Institute, Harbin Institute of Technology, Harbin 150001, China."
+    email: liangcanhe@hit.edu.cn
+version: 0.1.1
+date-released: 2026-10-14
+repository-code: "https://github.com/noonyue/neurmito"
+url: "https://github.com/noonyue/neurmito/releases/tag/v0.1.1"
+keywords:
+  - mitochondrial respiratory reserve
+  - source-aware modelling
+  - reproducible computational analysis

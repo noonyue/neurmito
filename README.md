@@ -1,16 +1,44 @@
-# NeurMito-DT
+# NeurMito-DT reproducibility release v0.1.1
 
-**Corrected submission candidate:** follow [README_Submission.md](README_Submission.md)
-for the authoritative 89-panel asset pipeline, evidence boundaries and unresolved
-author gates. The historical R071 notes below are retained for provenance and
-do not certify the corrected public release or end-to-end training reproduction.
+This repository contains the project-created analysis and figure-generation
+code, environment specifications, tests, and the 24 SHA-256-locked audit inputs
+used by the NeurMito-DT submission. It does not contain generated figures,
+result tables, Source Data workbooks, manuscript files, internal historical
+evidence archives, or article images.
 
-Code-availability repository for the NeurMito-DT computational framework.
-This repository intentionally contains method source code and reproducibility
-configuration only. Generated result figures, result tables, source-data
-workbooks, manuscript text, and submission files are not distributed here.
+## Public data sources
 
-## Quick start
+The only external public measurements used for the respiratory-reserve evidence
+layer were digitized from four primary articles. Persistent DOI and PubMed
+Central access links, the exact panels, preparations, and extraction scope are
+listed in [PUBLIC_DATA_SOURCES.md](PUBLIC_DATA_SOURCES.md).
+
+The 24 project-generated frozen inputs are under `inputs/audit_runs/`. Their
+expected SHA-256 values are recorded in `inputs/locked_audit_hashes.json`.
+They are publicly downloadable without authentication or an access request.
+The internal recovered-history archive is not included and is not required to
+regenerate the submitted figures or Source Data from the frozen inputs.
+
+## Repository scope
+
+Included:
+
+- `analysis/`, `module1/`–`module5/`, and `scripts/`: analysis and regeneration code;
+- `inputs/audit_runs/`: 24 frozen CSV/JSON inputs;
+- `inputs/source_records/`: source-screening and provenance records without article images;
+- `tests/`: reproducibility and consistency tests;
+- `environment.yml` and `requirements-lock.txt`: Python 3.11 environment;
+- root citation, rights, change, and integrity metadata.
+
+Excluded:
+
+- generated `results/` content, figures, spreadsheets, and tables;
+- manuscript, cover letter, supplementary information, and submission forms;
+- literature-derived JPG/PDF files;
+- `NeurMito_Recovered_Historical_Evidence.zip` and other internal audit archives;
+- Zenodo metadata or DOI, because no Zenodo deposition has been published.
+
+## Reproduce locally
 
 ```bash
 conda env create -f environment.yml
@@ -19,44 +47,35 @@ python analysis/reproduce_r071.py --only all
 python -m pytest -q
 ```
 
-The current R071 candidate checkout includes the 24 locked `inputs/audit_runs/`
-artifacts required by the active builders. The audit-run files are copied from
-the project-local source-audit records and are checked by
-`scripts/r071/audit_r071_archive.py` before release. A public or anonymous
-review archive must preserve these files or provide an approved equivalent
-access route; do not substitute legacy figures or synthetic inputs.
+The regeneration command writes derived files under a local `results/`
+directory. Those generated outputs are intentionally not tracked or distributed
+in the GitHub repository. The validated Python 3.11 environment previously
+regenerated Source Data, six main figures and six supplementary figures and
+passed 45 tests.
 
-```bash
-python scripts/r071/build_r071_all.py
-python scripts/r071/build_r071_supplementary.py
-python scripts/r071/build_r071_source_data.py
-```
+## Evidence boundaries
 
-These commands generate local files under `results/` for verification only.
-The `results/` directory, caches, and archives are excluded from the method
-repository and must not be included in a public or reviewer upload.
+- R033/R039 use algebraic spare/basal; R060/R060B retain independently
+  reported spare/basal endpoints.
+- R014B is a 91-condition transition scan; R021 is a distinct 441-condition
+  diagnostic cohort.
+- EWS results are retrospective and event-aligned. Prescribed lead intervals
+  are not prospectively learned warning horizons.
+- Figure 6 scenario weights, ROS offsets, and ±0.08 ranges are prescribed
+  computational objects, not patient measurements or confidence intervals.
+- Complete historical 25-state trajectories, original solver checkpoints, and
+  historical pre-test locking chronology are not asserted by this release.
 
-The release candidate completed a full rebuild and the full test suite in a
-fresh Python 3.11 environment created from `environment.yml` and
-`requirements-lock.txt`. The final public or reviewer release still requires repository-owner
-confirmation of visibility, authorship metadata, an immutable tag/commit, and
-an archive or reviewer-access record before it is cited as the final
-reproducibility location.
+## Access and rights
 
-Model implementations are in `module1`-`module5`; analysis and figure
-generation entry points are in `analysis/` and `scripts/`. A generator may
-create local files under `results/`; that directory is ignored by Git and must
-not be committed.
+The repository is publicly accessible without technical access restrictions.
+No open-source or data-reuse license is granted. Use, execution, modification,
+and redistribution are not permitted without prior written authorization from
+the applicable rights holder. See [LICENSE](LICENSE).
 
-Literature-derived source records are kept under `inputs/source_records/`.
-This is dry-lab computational work: no new wet-lab, imaging, animal, clinical,
-or person-level data are included.
+## Release identity
 
-See `docs/REPOSITORY_SCOPE.md` and `docs/reproduction.md` for the public scope.
-See `docs/PRE_RELEASE_CHECKLIST.md` for the remaining release actions.
-
-## License status
-
-No public software license has been approved for this release candidate. The
-repository owner and copyright holders must approve the license before public
-release or reviewer distribution. See `LICENSE` for the current status notice.
+- Repository: https://github.com/noonyue/neurmito
+- Release: `v0.1.1`
+- Zenodo DOI: not assigned
+- File integrity: `repository-sha256.txt`

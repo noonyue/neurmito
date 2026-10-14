@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.1.1 — 2026-10-14
+
+- Identified the four public respiratory-data sources by PMID, DOI, PMCID,
+  exact extracted panels, preparation, normalization, and source rights.
+- Confirmed public distribution of all 24 SHA-256-locked audit inputs.
+- Limited the repository and release archive to reproducibility code, frozen
+  inputs, tests, environments, and necessary root metadata; generated results,
+  submission files, article images, and the internal historical-evidence
+  archive are excluded.
+- Added confirmed citation authors and release metadata to `CITATION.cff`.
+- Replaced the pending license notice with an explicit no-license/all-rights-
+  reserved notice. Public access remains unrestricted, but no permission to
+  use, execute, modify, or redistribute is granted.
+- Recorded that no Zenodo DOI has been assigned.
+
+
 ## Release-preparation audit (2026-10-14)
 
 - Validated the full asset rebuild and all 45 tests in the pinned Python 3.11 environment.
